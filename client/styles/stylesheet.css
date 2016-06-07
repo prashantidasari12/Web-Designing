@@ -1,0 +1,20 @@
+
+body {
+ background-color:rgb(113,51,91);
+}
+li a {
+	color:white;
+}
+div.main-content {
+	background-color: rgb(113,51,91);
+}
+img  {
+	width:80px;
+	height:80px;
+	float:left;
+	margin-top: 0;
+	margin-left: 0;
+} 
+nav.navbar navbar-inverse navbar-fixed-top {
+	line-height: 100px;
+}

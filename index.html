@@ -3,38 +3,92 @@
 	<head>
 	<title>Main Page</title>
 		<meta charset="utf-8">
-			<meta name="viewport" width="device-width, initial-scale=1.0">
-	 <link rel="stylesheet" type="text/css" href="file:///C:/gitProjects/Web-Designing/client/Styles/stylesheet.css">
+		<meta name="viewport" width="device-width, initial-scale=1.0">
+	 	<link rel="stylesheet" type="text/css" href="./client/Styles/stylesheet.css">
 	 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
- 		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
- 			 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-	</head>
-	<body>
-		<div class="main-content">
+ 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+ 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+ 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+ 		<script src="https://raw.githubusercontent.com/srobbin/jquery-backstretch/master/jquery.backstretch.min.js"></script>
+ 	</head>
+	<body class="custom-bg-color">
 		<nav class="navbar navbar-inverse navbar-fixed-top">
 			<div class="container-fluid">
-				<nav class="navbar-header">
-					<div class="col-sm-2"
-										<a class="navbar-brand" href="#"><img src="file:\\\C:\gitProjects\Web-Designing\client\images\spaimage.jpg" alt="spaimage">
-										</a>
-					</div>
-				</nav>
-				<div class="col-sm-8">
-		<ul class="nav navbar-nav">
-	 			<li><a href="#"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span> About Lorem Ipsum</a></li>
-				<li><a href="#"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span> Our Locations</a></li>
-				<li><a href="#"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span> Spa Products</a></li>
-				<li><a href="#"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span> Special Offers</a></li>
-		</ul>
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+						<a class="navbar-brand" href="#">
+							<img src="file:///C:/gitProjects/Web-Designing/client/images/spaimage.jpg" alt="spaimage">
+						</a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav">
+		 				<li><a href="./client/views/aboutpage.html"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span> About Lorem Ipsum</a></li>
+						<li><a href="./client/views/locations.html"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span> Our Locations</a></li>
+						<li><a href="./client/views/spaproducts.html"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span> Spa Products</a></li>
+						<li><a href="./client/views/specialoffers.html"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span> Special Offers</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+				  	<li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>Sign in</a></li>
+				  	<li><a href="#"><span class="glyphicon glyphicon-search" aria-hidden="true"></span>Help</a></li>
+					 </ul>
+				</div>
+			
+			</div>
+		</nav>
+
+		 	
+	 	<div class="container">
+	 		<br>
+	 			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+	 				<ol class="carousel-indicators">
+	 					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+	 					<li data-target="#myCarousel" data-slide-to="1"></li>
+	 					<li data-taregt="#myCarousel" data-slide-to="2"></li>
+	 					<li data-target="#myCarousel" data-slide-to="3"></li>
+	 				</ol>
+	 				<div class="carousel-inner" role="listbox">
+	 					<div class="item active peopleCarouselImg">
+	 				 		<img class="peopleCarouselImg" src="file:\\\C:\gitProjects\Web-Designing\client\images\spa1.jpg" alt="spa1" width="460" height="250">
+	 				 	</div>
+	 				 	<div class="item peopleCarouselImg">
+	 				 	<img class="peopleCarouselImg" src="file:\\\C:\gitProjects\Web-Designing\client\images\spa2.jpg" alt="spa2" width="460" height="250">
+	 				 	</div>
+	 				 	<div class="item peopleCarouselImg">
+	 				 	<img class="peopleCarouselImg" src="file:\\\C:\gitProjects\Web-Designing\client\images\spa3.jpg" alt="spa3" width="460" height="250">
+	 				 	</div>
+	 				 	<div class="item peopleCarouselImg">
+	 				 	<img class="peopleCarouselImg" src="file:\\\C:\gitProjects\Web-Designing\client\images\spa4.jpg" alt="spa4" width="460" height="250">
+	 				 	</div>
+	 				</div>
+ 					<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+ 						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+ 						<span class="sr-only">Previous</span>
+ 					</a>
+ 					<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+ 						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+ 						<span class="sr-only">Next</span>
+ 					</a>
+ 				</div>
+ 			</div>
+ 						<div class="home">
+ 						  <div class="container">
+ 							<h3 class="accesory">Welcome to  Lorem Ipsum Spa</h3>
+ 							<p class="custom-para">In Bali, the healing arts are passed down from generation to generation, from mother to daughter; from father to son.Lorem Ipsum Spa was founded upon this peaceful Balinese ritual. We began our spa journey with a simple desire to pass this healing knowledge on to all guests seeking solace and relaxation.
+
+							Today, there are over 50 Lorem Ipsum Spas in all corners of the world, each maintaining its reverence for Balinese traditions. When you visit a Lorem Ipsum Spa, you will experience the passion and belief we have in the healing arts, learned a long time ago, in Bali.
+
+							At Lorem Ipsum spa while our therapists and aestheticians bestow their expert touch upon your physical body, its effect resonates through the core of your being. Much can happen in a Lorem Ipsum moment.
+							What are you waiting for?</p>
+     					</div>
+            </div>
 		</div>
-		<div class="col-sm-2">
-			<ul class="nav navbar-nav">
-		  	<li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>Sign in</a></li>
-		  	<li><a href="#"><span class="glyphicon glyphicon-search" aria-hidden="true"></span>Help</a></li>
-		 </ul>
-		 </div>
-		</div>
-	 </nav>
-	</div>
-</body>
+	</body>
 </html>
+
+
+
+

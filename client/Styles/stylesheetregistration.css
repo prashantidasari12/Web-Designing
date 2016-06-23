@@ -1,0 +1,33 @@
+body {
+	background-image:url("../images/paiselybg.gif");
+	height:500px;
+}
+
+h1 {
+	font-family:script;
+	font-size:30pt;
+	color:orange;
+}
+
+hr {
+	color:orange;
+}
+.control-label {
+	color:orange;
+	font-family:script;
+	font-size:15pt;
+	padding:10px;
+}
+.custom-checkbox {
+	margin-left:195px;
+}
+.btn-warning {
+	margin-left:195px;
+}
+.custom-color {
+	color:white;
+}
+.custom-height {
+	height:150px;
+	width:3000px;
+}

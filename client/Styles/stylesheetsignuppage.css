@@ -1,0 +1,51 @@
+	body {
+	 background-image:url("../images/paiselybg.gif");
+	}
+	h2 {
+	 color:orange;
+	 margin-left:10px;
+	 font-family:script;
+	 font-size:30pt;
+	}
+	label {
+		color:orange;
+		font-family:script;
+		font-size:15pt;
+	}
+	input {
+		color:orange;
+	}
+	.container {
+		margin-top:100px;
+		
+	}
+	.custom-feature {
+		margin-top:-280px;
+		float:right;
+		height:250px;
+	}
+	button {
+		margin-left:12px;
+	
+	}
+	.custom-checkbox {
+		margin-left:10px;
+	}
+	.custom-color {
+		color:white;
+	}
+	@media only screen and (max-width:730px){
+		img {
+			margin-left:0px;
+		}
+		form {
+			margin-left:0px;
+		}
+		.form-control {
+			input-size:col-xs-4;
+		}
+	.color-feature {
+		color:orange;
+	}
+	
+	}

@@ -1,0 +1,47 @@
+                      body {
+                      	background-image:url("../images/paiselybg.gif");
+                      }
+                      
+                      .navbar-nav {
+                      	padding-top:120px;
+                      	margin-left: 280px; 	
+                      }
+                      li a {
+                      	color:orange;
+                      }
+                      a.active {
+                      	color:white;
+                      }
+                      div.img-responsive {
+                      	margin-left:180px;
+                      	margin-top:10px;
+                      	border-image:1px solid orange;
+                      	color:white;
+                        float:left;
+                        overflow:auto;
+                        }
+
+                      #img-custom {
+                        background:linear-gradient(#6b3506,#db6f11);
+                      }
+                      p {
+                        color:orange;
+                      }
+                      /*.vertical-navbar {
+                        margin-left:-700px;
+                        margin-top:-600px;
+                        float:left;
+                        border-image:1px solid orange;
+                      }*/
+                      @media only screen and (max-width:640px) {
+                        .navbar-nav {
+                          margin-left:0;
+                        }
+                        .img-responsive {
+                          margin-left:0;
+                        }
+
+                      }
+                      .indexpage {
+                        margin-top:70px;
+                      }
